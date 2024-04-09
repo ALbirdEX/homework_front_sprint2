@@ -1,25 +1,49 @@
 .button {
+
+    padding: 0 5px;
+    border-radius: 3px;
+    width: 132px;
+    height: 30px;
+
 }
 
 .disabled {
+    background: rgba(0, 77, 153, 1);
+    opacity: 50%;
+    width: 133px;
+    height: 30px;
+
 }
 
 .secondary {
+    background-color: #fff;
+    border: 1px solid rgba(0, 102, 204, 1)
 }
 
 .default {
+    background: rgba(0, 102, 204, 1);
 }
 
 .red {
+    background: rgba(204, 20, 57, 1);
+
 }
 
 .default:hover {
+    width: 167px;
+    height: 30px;
+    background: rgba(0, 128, 255, 1);
+
 }
 
 .red:hover {
+    width: 167px;
+    height: 30px;
+    background: rgba(255, 26, 71, 1);
 }
 
 .secondary:hover {
+    background-color: #fff;
 }
 
 
