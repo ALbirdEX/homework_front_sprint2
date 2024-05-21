@@ -27,30 +27,30 @@ export const Sidebar: FC<PropsType> = ({open, handleClose}) => {
                 </button>
 
                 <nav id={'hw5-menu'} className={s.nav}>
-                    <NavLink
+                    <div><NavLink
                         id={'hw5-pre-junior-link'}
                         to={PATH.PRE_JUNIOR}
                         onClick={handleClose}
                         // className={...} // делает студент
                     >
                         Pre-junior
-                    </NavLink>
-                    <NavLink
+                    </NavLink></div>
+                    <div><NavLink
                         id={'hw5-junior-link'}
                         to={PATH.JUNIOR}
                         onClick={handleClose}
                         // className={...} // делает студент
                     >
                         Junior
-                    </NavLink>
-                    <NavLink
+                    </NavLink></div>
+                    <div><NavLink
                         id={'hw5-junior-plus-link'}
                         to={PATH.JUNIOR_PLUS}
                         onClick={handleClose}
                         // className={...} // делает студент
                     >
                         Junior Plus
-                    </NavLink>
+                    </NavLink></div>
                 </nav>
             </aside>
         </>
