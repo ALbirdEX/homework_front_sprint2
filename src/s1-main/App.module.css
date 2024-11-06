@@ -3,9 +3,10 @@
 }
 
 .hw {
-
+margin: 20px 40% 40px 70px
 }
 
 .hwTitle {
-
+    font-weight: bold;
+    margin: 70px auto 10px 70px;
 }

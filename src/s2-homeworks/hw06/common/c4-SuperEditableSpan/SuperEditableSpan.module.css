@@ -1,11 +1,16 @@
 .spanBlock {
+
 }
 
 .span {
+margin-left: 25px;
 }
 
 .input {
+margin-top: -8px;
+    width: 250px;
 }
 
 .pen {
+    margin-left: 70px;
 }

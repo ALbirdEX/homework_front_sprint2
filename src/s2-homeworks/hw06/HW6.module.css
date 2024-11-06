@@ -1,5 +1,7 @@
 .buttonsContainer {
+    margin-top: 50px;
 }
 
 .editableSpanContainer {
+    position: static;
 }
